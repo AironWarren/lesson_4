@@ -49,7 +49,7 @@ def test_random_list():
     Создайте список из 10 случайных чисел от 1 до 100 и отсортируйте его по возрастанию.
     """
     # TODO создайте список
-    l = [random.randint(1, 101) for x in range(10)]
+    l = [random.randint(1, 101) for _ in range(10)]
     l.sort()
     assert len(l) == 10
     assert l[0] < l[-1]
@@ -66,6 +66,7 @@ def test_unique_elements():
     assert isinstance(l, list)
     assert len(l) == 10
     assert l == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 
 def test_dicts():
     """
