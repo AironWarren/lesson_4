@@ -2,7 +2,6 @@ import random
 from math import pi
 
 
-
 def test_greeting():
     """
     Напишите программу, которая выводит на экран приветствие.
@@ -23,10 +22,10 @@ def test_rectangle():
     a = 10
     b = 20
     # TODO сосчитайте периметр
-    perimeter = 2*(a + b)
+    perimeter = 2 * (a + b)
     assert perimeter == 60
     # TODO сосчитайте площадь
-    area = a*b
+    area = a * b
     assert area == 200
 
 
@@ -37,10 +36,10 @@ def test_circle():
     """
     r = 23
     # TODO сосчитайте площадь
-    area = pi*r**2
+    area = pi * r ** 2
     assert area == 1661.9025137490005
     # TODO сосчитайте длину окружности
-    length = 2*pi*r
+    length = 2 * pi * r
     assert length == 144.51326206513048
 
 
